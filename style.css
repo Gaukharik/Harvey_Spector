@@ -1,0 +1,104 @@
+body {
+  background-color: #d6e6f2;
+  font-family: "Roboto", sans-serif;
+}
+
+body:hover {
+  background-color: #f5eee6;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #2d4059;
+  padding: 10px;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+.nav {
+  margin-right: auto;
+}
+
+.container-harvy {
+  display: flex;
+}
+
+.harvy {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  margin-top: 10px;
+}
+
+.phrase {
+  align-self: center;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.container-h3 {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  color: #112d4e;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h3:hover {
+  color: #07689f;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list-item {
+  text-transform: uppercase;
+  list-style: none;
+  font-size: 20px;
+  padding: 30px;
+}
+
+.list-item:hover {
+  background-color: #384259;
+  color: #fff;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #3f72af;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 20px;
+  font-size: 15px;
+  cursor: help;
+  flex: 1;
+  border: none;
+}
+
+button:hover {
+  background-color: #384259;
+}
